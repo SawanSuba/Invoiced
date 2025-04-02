@@ -1,0 +1,137 @@
+{
+    "per_field_metrics": {
+        "taxable_value": {
+            "TP": 84,
+            "FP": 0,
+            "FN": 1,
+            "Precision": 1.0,
+            "Recall": 0.9882,
+            "F1": 0.9941
+        },
+        "sgst_amount": {
+            "TP": 59,
+            "FP": 0,
+            "FN": 0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1": 1.0
+        },
+        "cgst_amount": {
+            "TP": 59,
+            "FP": 0,
+            "FN": 0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1": 1.0
+        },
+        "igst_amount": {
+            "TP": 20,
+            "FP": 0,
+            "FN": 0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1": 1.0
+        },
+        "sgst_rate": {
+            "TP": 41,
+            "FP": 0,
+            "FN": 17,
+            "Precision": 1.0,
+            "Recall": 0.7069,
+            "F1": 0.8283
+        },
+        "cgst_rate": {
+            "TP": 41,
+            "FP": 0,
+            "FN": 17,
+            "Precision": 1.0,
+            "Recall": 0.7069,
+            "F1": 0.8283
+        },
+        "igst_rate": {
+            "TP": 18,
+            "FP": 0,
+            "FN": 0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1": 1.0
+        },
+        "tax_amount": {
+            "TP": 37,
+            "FP": 0,
+            "FN": 0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1": 1.0
+        },
+        "tax_rate": {
+            "TP": 63,
+            "FP": 34,
+            "FN": 33,
+            "Precision": 0.6495,
+            "Recall": 0.6562,
+            "F1": 0.6528
+        },
+        "final_amount": {
+            "TP": 71,
+            "FP": 24,
+            "FN": 24,
+            "Precision": 0.7474,
+            "Recall": 0.7474,
+            "F1": 0.7474
+        },
+        "invoice_number": {
+            "TP": 96,
+            "FP": 0,
+            "FN": 0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1": 1.0
+        },
+        "invoice_date": {
+            "TP": 62,
+            "FP": 32,
+            "FN": 32,
+            "Precision": 0.6596,
+            "Recall": 0.6596,
+            "F1": 0.6596
+        },
+        "place_of_supply": {
+            "TP": 77,
+            "FP": 2,
+            "FN": 2,
+            "Precision": 0.9747,
+            "Recall": 0.9747,
+            "F1": 0.9747
+        },
+        "place_of_origin": {
+            "TP": 77,
+            "FP": 2,
+            "FN": 2,
+            "Precision": 0.9747,
+            "Recall": 0.9747,
+            "F1": 0.9747
+        },
+        "gstin_supplier": {
+            "TP": 96,
+            "FP": 0,
+            "FN": 0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1": 1.0
+        },
+        "gstin_recipient": {
+            "TP": 72,
+            "FP": 0,
+            "FN": 0,
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1": 1.0
+        }
+    },
+    "overall_accuracy": 0.8837,
+    "summary": {
+        "total_ground_truth_fields_present": 1101,
+        "total_correctly_extracted_fields": 973
+    }
+}
